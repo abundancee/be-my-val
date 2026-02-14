@@ -1,7 +1,7 @@
 import { useState } from "react";
 import lovesvg from "./assets/flower.png";
 import lovesvg2 from "./assets/levi.png";
-import myavatar from "./assets/Yutaka.mp4";
+import myavatar from "./assets/Yutaka.gif";
 
 
 export default function Page() {
@@ -58,11 +58,10 @@ export default function Page() {
             src={lovesvg2}
             className="fixed bottom-16 -z-10 animate-pulse md:right-24 right-10 md:w-40 w-32"
           />
-          <video
+          <img
             className="h-[230px] rounded-lg shadow-lg"
             src={myavatar}
-            autoPlay
-            loop
+            alt="My Avatar"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center" style={{ fontFamily: 'Federant, cursive' }}>
             Bee my Valentine?
